@@ -3,6 +3,7 @@
 == Recenzje kodu
 
 Wzajemne recenzje sa ważnym elementem pracy nad projektem.
+
 * Pozwala wyłapać niektóre błędy
 * Pomaga w nauce
 
