@@ -73,13 +73,13 @@ Trudno wyestymować ile czasu rozwiazanie zadania zajmie grupie.
 Przyklad dekoratora w javie::
 Collections
 
-Ile metod w objekcie::
+Ile metod w klasie `Object`?::
 11
 
-Co rozszerza klasę Vector?::
+Co rozszerza klasę `Vector`?::
 Stack 
 
-Ktora nastepna wersja javy bedzie LTS::
+Ktora nastepna wersja javy bedzie wersją LTS (Long Time Support)::
 17
  
  
