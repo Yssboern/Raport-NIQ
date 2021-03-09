@@ -1,0 +1,83 @@
+= Czego nauczylismy sie w #1 tygodniu
+
+== Recenzje kodu
+
+Recenzja jest bardzo czasochlonna, dlatego najelpiej jest go nie robic, jesli mozna tego uniknac.
+
+Wzajemne recenzje sa ważnym elementem pracy nad projektem.
+* Pozwala wyłapać niektóre błędy
+* Pomaga w nauce
+
+* Dyskwalifikacja za przewinienia:
+** Nie kompiluje sie 
+** Nie buduje sie 
+** Nie dziala 
+** Nie ma testow 
+** Brak podstawowych funkcjonalnosci
+ 
+* Sprawdzanie projektu: 
+** Spradzamy POM i dependencies (jakich bibliotek uzywa) 
+** Sprawdzamy strukture pakietow
+** Sprawdzamy nazwy klas 
+** Sprawdzamy java docsy 
+** Na koniec sprawdzamy sam kod 
+
+* Sprawdzenie kodu rozpoczynamy od analizy commitow
+** Pozwala ona przesledzic sposob myslenia autora
+** Pokazuje ktore klasy byly najczesciej zmieniane
+
+NOTE:  ‘squash commits’ Gdy piszemy projekt commitujemy tylko znaczace zmiany, zeby ulatwic robote recenzentowi, albo ‘splaszczamy’ malo znaczace commity. 
+https://levelup.gitconnected.com/how-to-squash-git-commits-9a095c1bc1fc 
+
+== Linux
+
+* Podstawowe komendy
+* poruszanie sie po systemie
+* instalowanie programow
+* man - Bardzo wazna komenda, pozwala przegladac instrukcje (man od 'manual') do wszystkich innych komend (i programow) w systemie
+* top - pokazuje obciazenie systemu przez procesy (procek, pamiec)
+
+== Warsztaty
+Przygotowywalismy zadania dla siebie nawzajem do zrobienia w piatek
+Samo robienie zadan, to proces bardzo pracochlonny, przygotuj sie na kilka-kilkanascie godzin pracy, by przygotowac zadania do zobienia przez grupe w ciagu 45min. Plus taki, ze mozna sie w tym czasie troche nauczyc.
+Sporym problemem okazalo sie skomponowanie opisu zadań w jednoznaczny i precyzyjny sposób.
+Trudno wyestymować ile czasu rozwiazanie zadania zajmie grupie.
+
+=== Co ciekawego bylo na warsztatach:
+
+* Typy generyczne:
+** Skladnia generykow 
+** Przechowanie opakowanego typu jako Object i rzutowanie go na typ generyczny w metodach podajacych go na zewnatrz
+ 
+* Wyjatki: 
+** Chained exceptions https://www.baeldung.com/java-chained-exceptions 
+** e.getCause() - Mozemy ustawiac wyjatek jako przyczynę innego wyjatku 
+*** Zastosowanie – np jesli lapiemy kilka różnych wyjątków,  możemy złapany wyjątek opakować w nasz wyjątek, ktory rzucamy dalej. Wtedy analizujac nasz wyjatek mozemy sprawdzic jaki wyjatek go wywołał. 
+
+* Collections: 
+** TreeMap  
+*** Bardzo przydatna struktura 
+*** Mapa w której klucze sa posortowane 
+
+== Objektowosc  
+
+* Enkapsulacja:
+** gettery I settery to antywzorzec 
+*** Stosowac tylko jesli framework wymaga 
+*** Zamiast tego znaczące (w sensie odpowiednio nazwane) metody które pozwalają modyfikować stan objektu w kontrolowany sposób.
+
+== Trivia:
+[qanda]
+Przyklad dekoratora w javie::
+Collections
+
+Ile metod w objekcie::
+11
+
+Co rozszerza klasę Vector?::
+Stack 
+
+Ktora nastepna wersja javy bedzie LTS::
+17
+ 
+ 
